@@ -11,7 +11,7 @@
                 while(have_posts() ){
             the_post();
 ?>
-            <!-- Faz a renderização de um item da lista de post ---> 
+            <!-- Faz a renderização de um item da lista de post -->
             <li class="imoveis-listagem-item">
                 
                  <?php the_post_thumbnail() ; ?> <!-- Busca a imagem salva no banco de dados --> 
